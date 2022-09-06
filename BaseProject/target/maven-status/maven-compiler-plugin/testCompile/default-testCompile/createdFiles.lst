@@ -1,0 +1,4 @@
+tests\SearchTest.class
+tests\BaseTest.class
+tests\AppointmentTest.class
+tests\CitySelectTest.class

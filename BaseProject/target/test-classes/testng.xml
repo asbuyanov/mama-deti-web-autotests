@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="appointment">
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.AppointmentTest"/>
+        </classes>
+    </test>
+    <test name="citySelection">
+        <classes>
+            <class name="tests.CitySelectTest"/>
+        </classes>
+    </test>
+    <test name="search">
+        <classes>
+            <class name="tests.SearchTest"/>
+        </classes>
+    </test>
+</suite>

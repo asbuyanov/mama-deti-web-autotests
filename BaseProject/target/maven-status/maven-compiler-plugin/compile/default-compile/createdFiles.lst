@@ -1,0 +1,8 @@
+pages\BasePage.class
+pages\SpbMainPage.class
+constants\Configuration.class
+constants\TestData.class
+common\CommonActions.class
+pages\SearchResultsPage.class
+pages\MainPage.class
+pages\ServicePage.class

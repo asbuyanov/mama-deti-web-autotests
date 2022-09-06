@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-06T18:43:14 SAMT" name="All Test Suite" finished-at="2022-09-06T18:44:04 SAMT" duration-ms="50107">
+    <groups>
+      <group name="regress">
+        <method signature="AppointmentTest.popupAppointmentAppear()[pri:0, instance:tests.AppointmentTest@7a34c1f6]" name="popupAppointmentAppear" class="tests.AppointmentTest"/>
+        <method signature="AppointmentTest.fillingAppointmentFormTest()[pri:0, instance:tests.AppointmentTest@7a34c1f6]" name="fillingAppointmentFormTest" class="tests.AppointmentTest"/>
+        <method signature="CitySelectTest.citySelect(org.openqa.selenium.By,java.lang.String)[pri:0, instance:tests.CitySelectTest@34f48d1]" name="citySelect" class="tests.CitySelectTest"/>
+      </group> <!-- regress -->
+      <group name="smoke">
+        <method signature="AppointmentTest.popupAppointmentAppear()[pri:0, instance:tests.AppointmentTest@7a34c1f6]" name="popupAppointmentAppear" class="tests.AppointmentTest"/>
+        <method signature="AppointmentTest.fillingAppointmentFormTest()[pri:0, instance:tests.AppointmentTest@7a34c1f6]" name="fillingAppointmentFormTest" class="tests.AppointmentTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-09-06T18:43:14 SAMT" name="appointment" finished-at="2022-09-06T18:43:27 SAMT" duration-ms="12905">
+      <class name="tests.AppointmentTest">
+        <test-method signature="popupAppointmentAppear()[pri:0, instance:tests.AppointmentTest@7a34c1f6]" started-at="2022-09-06T18:43:14 SAMT" name="popupAppointmentAppear" description="Appointment form activation" finished-at="2022-09-06T18:43:19 SAMT" duration-ms="5171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popupAppointmentAppear -->
+        <test-method signature="fillingAppointmentFormTest()[pri:0, instance:tests.AppointmentTest@7a34c1f6]" started-at="2022-09-06T18:43:19 SAMT" name="fillingAppointmentFormTest" description="Fill and send the appointment form" finished-at="2022-09-06T18:43:26 SAMT" depends-on-methods="tests.AppointmentTest.popupAppointmentAppear" duration-ms="7046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillingAppointmentFormTest -->
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:tests.AppointmentTest@7a34c1f6]" started-at="2022-09-06T18:43:26 SAMT" name="testTearDown" finished-at="2022-09-06T18:43:27 SAMT" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTearDown -->
+      </class> <!-- tests.AppointmentTest -->
+    </test> <!-- appointment -->
+    <test started-at="2022-09-06T18:43:27 SAMT" name="citySelection" finished-at="2022-09-06T18:43:43 SAMT" duration-ms="16517">
+      <class name="tests.CitySelectTest">
+        <test-method is-config="true" signature="testSettings()[pri:0, instance:tests.CitySelectTest@34f48d1]" started-at="2022-09-06T18:43:27 SAMT" name="testSettings" finished-at="2022-09-06T18:43:27 SAMT" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSettings -->
+        <test-method signature="citySelect(org.openqa.selenium.By,java.lang.String)[pri:0, instance:tests.CitySelectTest@34f48d1]" started-at="2022-09-06T18:43:27 SAMT" name="citySelect" description="City selection from drop-down menu" data-provider="citiesDomains" finished-at="2022-09-06T18:43:33 SAMT" duration-ms="5887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.xpath: //a[text()='Санкт-Петербург']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://sankt-peterburg.mamadeti.ru/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- citySelect -->
+        <test-method is-config="true" signature="deleteCookiesAndSessionStorage()[pri:0, instance:tests.CitySelectTest@34f48d1]" started-at="2022-09-06T18:43:33 SAMT" name="deleteCookiesAndSessionStorage" finished-at="2022-09-06T18:43:33 SAMT" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookiesAndSessionStorage -->
+        <test-method signature="citySelect(org.openqa.selenium.By,java.lang.String)[pri:0, instance:tests.CitySelectTest@34f48d1]" started-at="2022-09-06T18:43:33 SAMT" name="citySelect" description="City selection from drop-down menu" data-provider="citiesDomains" finished-at="2022-09-06T18:43:38 SAMT" duration-ms="5010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.xpath: //a[text()='Новосибирск']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://novosibirsk.mamadeti.ru/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- citySelect -->
+        <test-method is-config="true" signature="deleteCookiesAndSessionStorage()[pri:0, instance:tests.CitySelectTest@34f48d1]" started-at="2022-09-06T18:43:38 SAMT" name="deleteCookiesAndSessionStorage" finished-at="2022-09-06T18:43:38 SAMT" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookiesAndSessionStorage -->
+        <test-method signature="citySelect(org.openqa.selenium.By,java.lang.String)[pri:0, instance:tests.CitySelectTest@34f48d1]" started-at="2022-09-06T18:43:38 SAMT" name="citySelect" description="City selection from drop-down menu" data-provider="citiesDomains" finished-at="2022-09-06T18:43:43 SAMT" duration-ms="4680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.xpath: //a[text()='Казань']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://kazan.mamadeti.ru/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- citySelect -->
+        <test-method is-config="true" signature="deleteCookiesAndSessionStorage()[pri:0, instance:tests.CitySelectTest@34f48d1]" started-at="2022-09-06T18:43:43 SAMT" name="deleteCookiesAndSessionStorage" finished-at="2022-09-06T18:43:43 SAMT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookiesAndSessionStorage -->
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:tests.CitySelectTest@34f48d1]" started-at="2022-09-06T18:43:43 SAMT" name="testTearDown" finished-at="2022-09-06T18:43:43 SAMT" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTearDown -->
+      </class> <!-- tests.CitySelectTest -->
+    </test> <!-- citySelection -->
+    <test started-at="2022-09-06T18:43:43 SAMT" name="search" finished-at="2022-09-06T18:44:04 SAMT" duration-ms="20641">
+      <class name="tests.SearchTest">
+        <test-method is-config="true" signature="testSettings()[pri:0, instance:tests.SearchTest@7641ed02]" started-at="2022-09-06T18:43:43 SAMT" name="testSettings" finished-at="2022-09-06T18:43:43 SAMT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSettings -->
+        <test-method signature="maxSearchItemsTest()[pri:0, instance:tests.SearchTest@7641ed02]" started-at="2022-09-06T18:43:43 SAMT" name="maxSearchItemsTest" description="Max card amount" finished-at="2022-09-06T18:43:49 SAMT" duration-ms="5433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxSearchItemsTest -->
+        <test-method is-config="true" signature="deleteCookiesAndSessionStorage()[pri:0, instance:tests.SearchTest@7641ed02]" started-at="2022-09-06T18:43:49 SAMT" name="deleteCookiesAndSessionStorage" finished-at="2022-09-06T18:43:49 SAMT" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookiesAndSessionStorage -->
+        <test-method signature="searchFromSearchResultsPage()[pri:0, instance:tests.SearchTest@7641ed02]" started-at="2022-09-06T18:43:49 SAMT" name="searchFromSearchResultsPage" description="Search from search results page" finished-at="2022-09-06T18:43:54 SAMT" duration-ms="5587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFromSearchResultsPage -->
+        <test-method is-config="true" signature="deleteCookiesAndSessionStorage()[pri:0, instance:tests.SearchTest@7641ed02]" started-at="2022-09-06T18:43:54 SAMT" name="deleteCookiesAndSessionStorage" finished-at="2022-09-06T18:43:55 SAMT" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookiesAndSessionStorage -->
+        <test-method signature="searchResultsLinkToServiceTest()[pri:0, instance:tests.SearchTest@7641ed02]" started-at="2022-09-06T18:43:55 SAMT" name="searchResultsLinkToServiceTest" description="Click on a link from search results" finished-at="2022-09-06T18:44:02 SAMT" duration-ms="7676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchResultsLinkToServiceTest -->
+        <test-method is-config="true" signature="deleteCookiesAndSessionStorage()[pri:0, instance:tests.SearchTest@7641ed02]" started-at="2022-09-06T18:44:02 SAMT" name="deleteCookiesAndSessionStorage" finished-at="2022-09-06T18:44:04 SAMT" duration-ms="1070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookiesAndSessionStorage -->
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:tests.SearchTest@7641ed02]" started-at="2022-09-06T18:44:04 SAMT" name="testTearDown" finished-at="2022-09-06T18:44:04 SAMT" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTearDown -->
+      </class> <!-- tests.SearchTest -->
+    </test> <!-- search -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
