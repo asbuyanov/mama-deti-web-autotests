@@ -14,7 +14,7 @@ ___
         * Edge
     * Времени явных и неявных ожиданий
     * Удаление cookies и session storage после теста
-* В проекте реализован тест-сьют, включающий в себя 8 тест-кейсов. Описание тест-кейсов см. в https://github.com/asbuyanov/mama-deti-web-autotests/blob/main/mama-deti-test-cases.txt
+* В проекте реализован тест-сьют, включающий в себя 8 тест-кейсов. Описание тест-кейсов: https://github.com/asbuyanov/mama-deti-web-autotests/blob/main/mama-deti-test-cases.txt
 ___
 ## Технологии
 Язык программирования:
