@@ -1,2 +1,2 @@
 # mama-deti-web-autotests
-A small autotests framework for https://mamadeti.ru/. Just for practice.
+A small autotest framework for https://mamadeti.ru/.
