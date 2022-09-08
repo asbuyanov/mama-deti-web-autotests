@@ -33,11 +33,11 @@ ___
 * Allure
 ___
 ## Дополнительно
-Вид главной страницы https://mamadeti.ru/:
+* Вид главной страницы https://mamadeti.ru/:
 
 ![screen](mama-deti-main-page.png)
 
-Скришот отчета о тест-ране в Allure:
+* Скришот отчета о тест-ране в Allure:
 
 ![screen](All-test-suite.png)
 
